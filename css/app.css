@@ -28,5 +28,18 @@ body {
 
 .row{
     display: flex;
+    padding: 20px;
 }
 
+/* DEBUG */
+.debug .container{
+    border: 1px solid black;
+}
+
+.debug .row{
+    border: 1px solid red;
+}
+
+.debug .row >*{
+    border: 1px solid blue;
+}
